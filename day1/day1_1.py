@@ -1,3 +1,6 @@
+# Copyright (c) 2020 DanTGL
+# This code is licensed under The MIT License (see LICENSE for details)
+
 sum = 2020
 
 inputs = set(int(line.strip()) for line in open("day1/input"))
