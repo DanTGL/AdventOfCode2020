@@ -1,0 +1,1 @@
+print(max(int("".join("1" if i == "B" or i == "R" else "0" for i in seat), 2) for seat in open("day5/input").read().splitlines()))
