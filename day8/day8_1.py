@@ -1,7 +1,7 @@
 
 inputs = [line.split() for line in open("day8/input").read().splitlines()]
 
-class Emulator:
+class Interpreter:
 
     def __init__(self):
         self.accumulator = 0
@@ -30,5 +30,5 @@ class Emulator:
 
         self.program_counter += 1
 
-emulator = Emulator()
-print(emulator.execute_code(inputs))
+interpreter = Interpreter()
+print(interpreter.execute_code(inputs))
